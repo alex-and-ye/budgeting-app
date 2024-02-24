@@ -1,0 +1,48 @@
+.form {
+    padding: 1rem;
+    width: 350px;
+    margin: 2rem auto; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .control {
+    margin-bottom: 0.5rem;
+  }
+  
+  .control label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  }
+  
+  .control input,
+  .control select {
+    font: inherit; 
+    width: 100%;
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .actions {
+    text-align: right;
+  }
+  
+  .actions button {
+    background-color: #683ab7; /* A shade of purple */
+    color: white;
+    font: inherit;
+    border: 1px solid #683ab7;
+    border-radius: 4px;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #502691; /* Darker purple on hover */
+    border-color: #502691;
+  }
+  
